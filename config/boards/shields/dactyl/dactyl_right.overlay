@@ -1,7 +1,10 @@
-// dactyl_left.overlay
+// dactyl_right.overlay
 
 #include "dactyl.dtsi"
 
+&default_transform {
+    col-offset = <6>;
+};
 
 &kscan0 {
     col-gpios
@@ -14,7 +17,6 @@
 			;
 };
 
-
-&left_encoder {
+&right_encoder {
 	status = "okay";
 };
