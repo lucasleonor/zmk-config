@@ -10,7 +10,7 @@ exposes:
 features:
   - keys
   - display
-  - encoders
+#  - encoders
 siblings:
   - dactyl_left
   - dactyl_right
