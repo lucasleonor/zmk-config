@@ -5,8 +5,8 @@ type: shield
 url: https://github.com/bullwinkle3000/zmk-config-xiao/
 requires:
   - nice_nano_v2
-exposes: 
-  - i2c_oled
+#exposes:
+#  - i2c_oled
 features:
   - keys
   - display
